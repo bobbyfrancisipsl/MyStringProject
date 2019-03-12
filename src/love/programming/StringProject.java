@@ -2,13 +2,20 @@ package love.programming;
 
 public class StringProject {
     public static void main(String[] args) {
-        String MyString = "Bobby Francis";
-        String OtherString = new String ("Bobby francis");
+        String myString = "Bobby Francis";
+        String otherString = new String("Love Programming");
 
-        System.out.println(MyString);
-        System.out.println(MyString.hashCode());
-        System.out.println(MyString.toUpperCase());
-        System.out.println(MyString.compareTo(OtherString));
+        System.out.println(myString);
+
+        System.out.println(myString.hashCode());
+
+        System.out.println(myString.toUpperCase());
+
+        System.out.println(myString.compareTo(otherString));
+
+        System.out.println(myString.contentEquals(otherString));
+        
+        System.out.println(myString.length());
 
 
     }
